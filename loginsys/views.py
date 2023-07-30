@@ -36,6 +36,8 @@ def SignUpPage(request):
             pass2 = request.POST.get('password2')
             if pass1 != pass2:
                 return HttpResponse("your password and Confirm Password does not match")
+            elif ' ' in uname:
+                return HttpResponse("Blank space not allowed in username")
             else:
                 my_user = User.objects.create_user(uname,email,pass1,is_staff = True)
                 
