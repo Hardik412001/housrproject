@@ -37,7 +37,8 @@ def SignUpPage(request):
             if pass1 != pass2:
                 return HttpResponse("your password and Confirm Password does not match")
             else:
-                my_user = User.objects.create_user(uname,email,pass1)
+                my_user = User.objects.create_user(uname,email,pass1,is_staff = True)
+                
                 my_user.save()
                 return redirect('login')
 

@@ -20,7 +20,7 @@ class Employee(models.Model):
     name = models.CharField(max_length=100)
     contact_number = models.CharField(max_length=20)
     email = models.EmailField()
-    assigned_groups = models.ManyToManyField('Group')
+    # assigned_groups = models.ManyToManyField('Group')
 
     def __str__(self):
         return self.name
@@ -33,8 +33,20 @@ class CommunityEvent(models.Model):
     def __str__(self):
         return self.name
 
-class Group(models.Model):
-    name = models.CharField(max_length=100)
+# class Group(models.Model):
+#     name = models.CharField(max_length=100)
 
-    def __str__(self):
-        return self.name
+#     def __str__(self):
+#         return self.name
+    
+# models.py
+
+# class Group(models.Model):
+#     name = models.CharField(max_length=100)
+
+# class Permission(models.Model):
+#     name = models.CharField(max_length=100)
+#     model = models.CharField(max_length=100)
+#     can_read = models.BooleanField(default=False)
+#     can_update = models.BooleanField(default=False)
+#     can_delete = models.BooleanField(default=False)
