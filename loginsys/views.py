@@ -29,7 +29,7 @@ def LoginPage(request):
 #         return next_url
 #     return reverse_lazy('housr_elevate_app:home')
 
-        
+
 
     return render(request,'login.html')
 
@@ -47,9 +47,9 @@ def SignUpPage(request):
                 return HttpResponse("Blank space not allowed in username")
             else:
                 my_user = User.objects.create_user(uname,email,pass1,is_staff = True)
-                
+
                 my_user.save()
-                return redirect('login')
+                return redirect('loginsys:login')
 
         return render(request,'signup.html')
     except Exception as e:
