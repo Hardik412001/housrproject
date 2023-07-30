@@ -1,0 +1,135 @@
+{
+    "residents": [
+      {
+        "Name": "John Doe",
+        "Phone number": "555-123-4567",
+        "email": "john.doe@email.com",
+        "Building name": "Building A",
+        "date of birth": "1985-03-15",
+        "rent amount": 1200,
+        "token amount": 200,
+        "contract start date": "2023-08-01",
+        "contact end date": "2024-07-31",
+        "move in date": "2023-08-15",
+        "move out date": "2024-07-31"
+      },
+      {
+        "Name": "Jane Smith",
+        "Phone number": "555-987-6543",
+        "email": "jane.smith@email.com",
+        "Building name": "Building B",
+        "date of birth": "1990-06-22",
+        "rent amount": 1500,
+        "token amount": 300,
+        "contract start date": "2023-07-25",
+        "contact end date": "2024-07-24",
+        "move in date": "2023-07-30",
+        "move out date": "2024-07-24"
+      },
+      {
+        "Name": "Mike Johnson",
+        "Phone number": "555-555-1212",
+        "email": "mike.johnson@email.com",
+        "Building name": "Building C",
+        "date of birth": "1988-11-10",
+        "rent amount": 1800,
+        "token amount": 250,
+        "contract start date": "2023-08-10",
+        "contact end date": "2024-08-09",
+        "move in date": "2023-08-20",
+        "move out date": "2024-08-09"
+      },
+      {
+        "Name": "Sarah Williams",
+        "Phone number": "555-222-3333",
+        "email": "sarah.williams@email.com",
+        "Building name": "Building D",
+        "date of birth": "1995-04-05",
+        "rent amount": 1400,
+        "token amount": 350,
+        "contract start date": "2023-07-28",
+        "contact end date": "2024-07-27",
+        "move in date": "2023-08-01",
+        "move out date": "2024-07-27"
+      },
+      {
+        "Name": "Michael Brown",
+        "Phone number": "555-888-9999",
+        "email": "michael.brown@email.com",
+        "Building name": "Building A",
+        "date of birth": "1980-09-18",
+        "rent amount": 1300,
+        "token amount": 300,
+        "contract start date": "2023-08-05",
+        "contact end date": "2024-08-04",
+        "move in date": "2023-08-10",
+        "move out date": "2024-08-04"
+      },
+      {
+        "Name": "Emily Davis",
+        "Phone number": "555-777-4444",
+        "email": "emily.davis@email.com",
+        "Building name": "Building B",
+        "date of birth": "1987-12-03",
+        "rent amount": 1600,
+        "token amount": 200,
+        "contract start date": "2023-07-20",
+        "contact end date": "2024-07-19",
+        "move in date": "2023-07-25",
+        "move out date": "2024-07-19"
+      },
+      {
+        "Name": "David Lee",
+        "Phone number": "555-333-2222",
+        "email": "david.lee@email.com",
+        "Building name": "Building C",
+        "date of birth": "1992-02-14",
+        "rent amount": 1700,
+        "token amount": 300,
+        "contract start date": "2023-08-15",
+        "contact end date": "2024-08-14",
+        "move in date": "2023-08-25",
+        "move out date": "2024-08-14"
+      },
+      {
+        "Name": "Olivia Martin",
+        "Phone number": "555-666-7777",
+        "email": "olivia.martin@email.com",
+        "Building name": "Building D",
+        "date of birth": "1998-07-01",
+        "rent amount": 1900,
+        "token amount": 250,
+        "contract start date": "2023-07-22",
+        "contact end date": "2024-07-21",
+        "move in date": "2023-08-01",
+        "move out date": "2024-07-21"
+      },
+      {
+        "Name": "Robert Taylor",
+        "Phone number": "555-444-8888",
+        "email": "robert.taylor@email.com",
+        "Building name": "Building A",
+        "date of birth": "1984-01-30",
+        "rent amount": 1250,
+        "token amount": 200,
+        "contract start date": "2023-08-02",
+        "contact end date": "2024-08-01",
+        "move in date": "2023-08-05",
+        "move out date": "2024-08-01"
+      },
+      {
+        "Name": "Sophia Anderson",
+        "Phone number": "555-999-0000",
+        "email": "sophia.anderson@email.com",
+        "Building name": "Building B",
+        "date of birth": "1991-05-12",
+        "rent amount": 1550,
+        "token amount": 300,
+        "contract start date": "2023-07-29",
+        "contact end date": "2024-07-28",
+        "move in date": "2023-08-01",
+        "move out date": "2024-07-28"
+      }
+    ]
+  }
+  

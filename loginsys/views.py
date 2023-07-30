@@ -3,13 +3,14 @@ import traceback
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate,login,logout
 from django.contrib.auth.decorators import login_required
+from django.urls import reverse_lazy
 
 # Create your views here.
 
 
 @login_required(login_url='login')
 def Homepage(request):
-    return render(request,'home.html')
+    return render(request,'housr_elevate_home.html')
 
 def LoginPage(request):
     if request.method == 'POST':
@@ -18,9 +19,15 @@ def LoginPage(request):
         user = authenticate(request,username=username,password=pass1)
         if user is not None:
             login(request,user)
-            return redirect('home')
+            return redirect('housr_elevate_app:housr_elevate_home')
         else:
             return HttpResponse('Username or Password is incorrect')
+
+# def get_success_url(request):
+#     next_url = request.GET.get('next')
+#     if next_url:
+#         return next_url
+#     return reverse_lazy('housr_elevate_app:home')
 
         
 
@@ -51,3 +58,7 @@ def SignUpPage(request):
 def LogoutPage(request):
     logout(request)
     return redirect('login')
+
+
+
+

@@ -17,12 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from loginsys import views
+from housr_elevate_app import views as Hviews
+from django.urls import include, path
+
+
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.SignUpPage,name='signup'),
-    path("login/", views.LoginPage, name="login"),
-    path('home/', views.Homepage, name='home'),
-    path('logout/', views.LogoutPage, name='logout'),
-
+    path('', include('housr_elevate_app.urls')),
+    path('', include('loginsys.urls')),
 ]
